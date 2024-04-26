@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-container container">
+                <nav class="header__navigation menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link section-descr" href="">
+                                О клинике
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link section-descr" href="">
+                                Лицензии и сертификаты
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link section-descr" href="">
+                                Акции
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link section-descr" href="">
+                                Отзывы
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link section-descr" href="">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="header__phone" href="tel:+79275406537">+7 (927) 540-65-37</a>
+            </div>
+        </div>
+        <div class="header__center">
+            <div class="header__center-container container">
+                <div class="header__info">
+                    <a href="/" class="header__logo logo">
+                        <picture class="logo__picture">
+                            <img class="logo__img" src="assets/img/logo-header.png" alt="">
+                        </picture>
+                        <span class="logo__text">Алковрач</span>
+                    </a>
+                    <button class="header__icon section-link">
+                        <svg width="16.000000" height="22.000000" viewBox="0 0 16 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs />
+                            <path id="Vector"
+                                d="M7.16 -0.17C5.08 -0.17 3.09 0.65 1.62 2.12C0.15 3.58 -0.68 5.57 -0.69 7.65C-0.69 10.76 1.05 13.37 2.33 15.27L2.57 15.62C3.84 17.46 5.21 19.24 6.66 20.95L7.17 21.54L7.67 20.95C9.13 19.24 10.49 17.46 11.77 15.62L12 15.26C13.27 13.36 15.02 10.76 15.02 7.65C15.01 5.57 14.18 3.58 12.71 2.12C11.23 0.65 9.24 -0.17 7.16 -0.17ZM7.16 11.16C6.3 11.16 5.45 10.91 4.73 10.42C4.01 9.94 3.45 9.26 3.12 8.46C2.79 7.66 2.7 6.78 2.87 5.94C3.04 5.09 3.46 4.31 4.07 3.7C4.68 3.08 5.46 2.67 6.31 2.5C7.16 2.33 8.04 2.42 8.83 2.75C9.63 3.08 10.32 3.64 10.8 4.36C11.28 5.08 11.53 5.92 11.53 6.79C11.53 7.95 11.07 9.06 10.25 9.88C9.43 10.7 8.32 11.16 7.16 11.16Z"
+                                fill="#4EC259" fill-opacity="1.000000" fill-rule="nonzero" />
+                        </svg>
+                        <span class="section-link__text">Москва</span>
+                    </button>
+                </div>
+                <div class="header__center-wrapper">
+                    <ul class="header__social socials">
+                        <li class="socials__item social"><a href="#" target="_blank" class="social__link"><img
+                                    src="assets/img/icons/socials/wa.png" alt="" class="social__img"></a></li>
+                        <li class="socials__item social"><a href="#" target="_blank" class="social__link"><img
+                                    src="assets/img/icons/socials/vk.png" alt="" class="social__img"></a></li>
+                        <li class="socials__item social"><a href="#" target="_blank" class="social__link"><img
+                                    src="assets/img/icons/socials/tg.png" alt="" class="social__img"></a></li>
+                    </ul>
+                    <div class="header__btns-group">
+                        <button class="button__call">Позвонить</button>
+                        <button class="button__reception section-button">Запписаться на прием</button>
+                    </div>
+                </div>
+                <button class="btn-reset burger">
+                    <span class="berger__line">
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__bottom-container container">
+                <nav class="header__bottom-nav main-menu">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">
+                                <span class="main-menu__link-text">
+                                    Вывод из запоя
+                                </span>
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7.26087 7L13 1" stroke="white" />
+                                </svg>
+                            </a>
+                            <ul class="main-menu__sub-list">
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница от запоя
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница при алкогольной интоксикации
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Экстренное вытрезвление
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">
+                                <span class="main-menu__link-text">
+                                    Алкоголизм
+                                </span>
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7.26087 7L13 1" stroke="white" />
+                                </svg>
+                            </a>
+                            <ul class="main-menu__sub-list">
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница от запоя
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница при алкогольной интоксикации
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Экстренное вытрезвление
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">
+                                <span class="main-menu__link-text">
+                                    Кодирование
+                                </span>
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7.26087 7L13 1" stroke="white" />
+                                </svg>
+                            </a>
+                            <ul class="main-menu__sub-list">
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница от запоя
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница при алкогольной интоксикации
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Экстренное вытрезвление
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">
+                                <span class="main-menu__link-text">
+                                    Реабилитация
+                                </span>
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7.26087 7L13 1" stroke="white" />
+                                </svg>
+                            </a>
+                            <ul class="main-menu__sub-list">
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница от запоя
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница при алкогольной интоксикации
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Экстренное вытрезвление
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">
+                                <span class="main-menu__link-text">
+                                    Лечение алкоголизма
+                                </span>
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7.26087 7L13 1" stroke="white" />
+                                </svg>
+                            </a>
+                            <ul class="main-menu__sub-list">
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница от запоя
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница при алкогольной интоксикации
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Экстренное вытрезвление
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">
+                                <span class="main-menu__link-text">
+                                    Лечение наркомании
+                                </span>
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7.26087 7L13 1" stroke="white" />
+                                </svg>
+                            </a>
+                            <ul class="main-menu__sub-list">
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница от запоя
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Капельница при алкогольной интоксикации
+                                    </a>
+                                </li>
+                                <li class="main-menu__sub-item">
+                                    <a href="" class="main-menu__sub-link">
+                                        Экстренное вытрезвление
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main__block section-offset">
+            <img class="main__block-img" src="assets/img/banner-bg.png" alt="">
+            <div class="main__block-container">
+                <div class="main__block-left">
+                    <h1 class="main__block-title">
+                        Частная наркологическая клиника в Москве
+                    </h1>
+                    <ul class="main__block_list">
+                        <li class="main__block-item">
+                            <p class="main__block-list__number">01</p>
+                            <p class="main__block-list__text">Гарантия анонимности</p>
+                        </li>
+                        <li class="main__block-item">
+                            <p class="main__block-list__number">02</p>
+                            <p class="main__block-list__text">В стационаре и на дому</p>
+                        </li>
+                        <li class="main__block-item">
+                            <p class="main__block-list__number">03</p>
+                            <p class="main__block-list__text">Приезд врача в течении 40 минут</p>
+                        </li>
+                        <li class="main__block-item">
+                            <p class="main__block-list__number">04</p>
+                            <p class="main__block-list__text">Реабилитация с пожизненной гарантией от срыва</p>
+                        </li>
+                    </ul>
+                    <form class="main__block-container_connection">
+                        <p class="main__block-container_connection__ttile">Отправьте заявку или напишите нам в WhatsApp
+                        </p>
+                        <label class="label__name label-form" for="">
+                            <input class="main__block_input" type="name" name="имя" placeholder="имя" required>
+                        </label>
+                        <label class=" label__phone label-form label-form_phone" for="">
+                            <input class="main__block_input" name="телнфон" placeholder="телнфон" type="tell" required>
+                        </label>
+                        <button class="main__block-button section-button">Отправить заявку</button>
+                    </form>
+                    <button class="main__block-button button__main section-button">Отправить заявку</button>
+                </div>
+                <picture class="main__block-picture">
+                    <img src="assets/img/doctor.png" alt="" class="main__block-doctor">
+                </picture>
+            </div>
+        </section>
+         <section class="services section-offset">
+            <div class="services__container container">
+                <h2 class="services__title section-title">
+                    Наши услуги
+                </h2>
+                <div class="services__container-wrapper">
+                    <article class="services__article">
+                        <h3 class="services__article-title">Алкоголизм</h3>
+                        <ul class="services__article-list markers">
+                            <li class="services__article-iitem">Лечение алкоголизма как на дому, так и в стационаре</li>
+                            <li class="services__article-iitem">Реабилитационный центр для лиц, страдающих алкогольной
+                                зависимостью</li>
+                            <li class="services__article-iitem">Реабилитационный центр для лиц, страдающих алкогольной
+                                зависимостью</li>
+                        </ul>
+                        <div class="article__link">
+                            <span>
+                                <a class="services__article-link" href="">Узнать больше</a>
+                                <svg width="30.000000" height="11.000000" viewBox="0 0 30 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M30 5.5L21.36 11L21.36 6.5L0 6.5L0 4.5L21.36 4.5L21.36 0L30 5.5Z"
+                                        fill="#4EC259" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+                    <article class="services__article">
+                        <h3 class="services__article-title">Кодирование алкоголизма</h3>
+                        <ul class="services__article-list markers">
+                            <li class="services__article-iitem">лазерное кодирование,</li>
+                            <li class="services__article-iitem">кодирование уколом и др</li>
+                        </ul>
+                        <div class="article__link">
+                            <span>
+                                <a class="services__article-link" href="">Узнать больше</a>
+                                <svg width="30.000000" height="11.000000" viewBox="0 0 30 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M30 5.5L21.36 11L21.36 6.5L0 6.5L0 4.5L21.36 4.5L21.36 0L30 5.5Z"
+                                        fill="#4EC259" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+                    <article class="services__article">
+                        <h3 class="services__article-title">Наркомания</h3>
+                        <ul class="services__article-list markers">
+                            <li class="services__article-iitem">мефедрона,</li>
+                            <li class="services__article-iitem">спайса,</li>
+                            <li class="services__article-iitem">героина и др.</li>
+                            <li class="services__article-iitem">Реабилитационный центр для наркозависимых</li>
+                        </ul>
+                        <div class="article__link">
+                            <span>
+                                <a class="services__article-link" href="">Узнать больше</a>
+                                <svg width="30.000000" height="11.000000" viewBox="0 0 30 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M30 5.5L21.36 11L21.36 6.5L0 6.5L0 4.5L21.36 4.5L21.36 0L30 5.5Z"
+                                        fill="#4EC259" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+                    <article class="services__article">
+                        <h3 class="services__article-title">Вывод из запоя</h3>
+                        <ul class="services__article-list markers">
+                            <li class="services__article-iitem">Вывод из запоя на дому</li>
+                            <li class="services__article-iitem">Капельница от алкоголя на дому</li>
+                            <li class="services__article-iitem">Капельница при алкогольной интоксикации</li>
+                            <li class="services__article-iitem">Экстренный вызов</li>
+                        </ul>
+                        <div class="article__link">
+                            <span>
+                                <a class="services__article-link" href="">Узнать больше</a>
+                                <svg width="30.000000" height="11.000000" viewBox="0 0 30 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M30 5.5L21.36 11L21.36 6.5L0 6.5L0 4.5L21.36 4.5L21.36 0L30 5.5Z"
+                                        fill="#4EC259" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+                    <article class="services__article">
+                        <h3 class="services__article-title">Психиатрия</h3>
+                        <ul class="services__article-list markers">
+                            <li class="services__article-iitem">Оказание психиатрической и психологической помощи лицам
+                                с зависимостью</li>
+                            <li class="services__article-iitem">Психотерапевт на дому</li>
+                            <li class="services__article-iitem">Психиатр на дому</li>
+                        </ul>
+                        <div class="article__link">
+                            <span>
+                                <a class="services__article-link" href="">Узнать больше</a>
+                                <svg width="30.000000" height="11.000000" viewBox="0 0 30 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M30 5.5L21.36 11L21.36 6.5L0 6.5L0 4.5L21.36 4.5L21.36 0L30 5.5Z"
+                                        fill="#4EC259" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+                    <article class="services__article">
+                        <h3 class="services__article-title">Наркологическая скорая</h3>
+                        <ul class="services__article-list markers">
+                            <li class="services__article-iitem">Оказание экстренной медицинской помощи с выездом бригады
+                            </li>
+                        </ul>
+                        <div class="article__link">
+                            <span>
+                                <a class="services__article-link" href="">Узнать больше</a>
+                                <svg width="30.000000" height="11.000000" viewBox="0 0 30 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M30 5.5L21.36 11L21.36 6.5L0 6.5L0 4.5L21.36 4.5L21.36 0L30 5.5Z"
+                                        fill="#4EC259" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="about_us">
+            <div class="about_us-container container">
+                <div class="about_us-item">
+                    <div class="about_us-item-body">
+                        <div class="about_us__top-container__text content-body">
+                            <h3>
+                                Наркологическая клиника в Москве: круглосуточное оказание услуг с выездом на дом
+                            </h3>
+                            <p>Одни из наиболее опасных
+                                хронических
+                                заболеваний, от которых каждый год страдают тысячи пациентов, это алкоголизм и
+                                наркомания.
+                                Из-за патологической тяги к спиртным напиткам и запрещенным веществам у многих
+                                разрушается
+                                здоровье и деградирует личность, они лишаются работы, семьи и дома, нередко оказываясь
+                                на
+                                улице. Все это факторы, повышающие вероятность преждевременной смерти, которая может
+                                наступить в любой момент. Шанс исправить ситуацию коренным образом есть, если обратиться
+                                за
+                                медицинской помощью в наркологическую клинику. Врачи проводят эффективную комплексную
+                                терапию, добиваясь хороших результатов, благодаря индивидуальному подходу к каждому
+                                человеку.</p>
+                        </div>
+                        <div class="about_us__top-container-img">
+                            <picture class="about_us-top__picture">
+                                <img class="about_us-top__img" src="assets/img/about-top-img.png" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_us-item about_us__center-offset ">
+                    <div class="about_us-item-body">
+                        <div class="about_us__center-container-img">
+                            <picture class="about_us__center-picture">
+                                <img src="assets/img/about-centr-img.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="about_us__centr-container-text content-body">
+                            <h3>
+                                Особенности лечения в частной наркологической клинике
+                            </h3>
+                            <p>
+                                Многие семьи и зависимые тянут с тем, чтобы начать проходить комплексную терапию в
+                                течение
+                                долгого времени, опасаясь огласки. В этом случае проблема решается, благодаря обращению
+                                в
+                                платную наркологическую клинику. Здесь каждому пациенту дают следующие гарантии:
+                            </p>
+                            <p>
+                                <span>01</span>
+                                В отличие от государственной больницы зависимого не ставят на учет в наркологический
+                                диспансер. Информация о пациенте не покидает пределов медицинского учреждения,
+                                квалифицированные врачи обеспечивают полную В частной наркологической клинике доступные
+                                цены
+                                на все услуги. Клиенты могут получить предварительную бесплатную консультацию. Каждому
+                                предлагают несколько терапевтических программ по разной стоимости, чтобы лечение могли
+                                пройти алко- и наркозависимые с высокими и низкими доходами.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_us__bottom">
+                    <div class="about_us__bottom-container content-body">
+                        <p>
+                            <span>02</span>
+                            В частной наркологической клинике доступные цены на все услуги. Клиенты могут получить
+                            предварительную бесплатную консультацию. Каждому предлагают несколько терапевтических
+                            программ
+                            по разной стоимости, чтобы лечение могли пройти алко- и наркозависимые с высокими и низкими
+                            доходами.
+                        </p>
+                        <p>
+                            <span>03</span>
+                            Чтобы исключить вероятность срыва, пациента на время реабилитации помещают в закрытое
+                            учреждение. В этом случае он не сорвется, так как точно не встретится со старой компанией, в
+                            которой принимал наркотики или употреблял алкоголь. Если требуется, его отправляют в один из
+                            филиалов крупной сети, расположенный в другом городе или области.
+                        </p>
+                        <p>
+                            <span>04</span>
+                            Бригада опытных наркологов оперативно отправляется на выезд по любому адресу клиента.
+                            Специалисты работают круглосуточно без выходных дней и праздников.
+                        </p>
+                        <p>
+                            <span>05</span>
+                            Если состояние пациента стабильное, ему оказывают помощь амбулаторно. Госпитализация в
+                            стационар
+                            требуется, когда существует опасность резкого ухудшения здоровья человека, отказа внутренних
+                            органов, обострения хронических расстройств.
+                        </p>
+                        <p>
+                            <span>06</span>
+                            В наркологической клинике пациент на протяжении всего терапевтического курса анонимно
+                            остается в
+                            комфортабельной палате под круглосуточным медицинским наблюдением. Его обеспечивают всем
+                            необходимым, в том числе полноценным питанием, чтобы ускорить восстановление.
+                        </p>
+                        <p>
+                            <span>07</span>
+                            наблюдением. Его обеспечивают всем необходимым, в том числе полноценным питанием, чтобы
+                            ускорить
+                            восстановление.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <div class="footer_left">
+                <a href="/" class="footer__logo logo">
+                    <picture class="logo__picture">
+                        <img class="logo__img" src="assets/img/logo-header.png" alt="">
+                    </picture>
+                    <span class="logo__text">Алковрач</span>
+                </a>
+                <button class="footer__icon section-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M22.5337 10.3273V8.9916C22.5337 6.58992 21.4472 4.33187 19.4741 2.63352C17.5009 0.935171 14.8768 0 12.0863 0C9.29573 0 6.67251 0.935365 4.69934 2.63352C2.72617 4.33168 1.63968 6.58992 1.63968 8.9916V10.325H1.55794C1.14488 10.3253 0.748853 10.4667 0.456773 10.7181C0.164693 10.9695 0.000418414 11.3104 0 11.6659L0 16.8653C0.000418414 17.2209 0.164693 17.5617 0.456773 17.8131C0.748853 18.0645 1.14488 18.2059 1.55794 18.2063H2.07545C2.38204 18.2066 2.68182 18.1285 2.93684 17.982C2.96242 18.3289 3.14347 18.6536 3.44183 18.8878C3.74018 19.122 4.13252 19.2474 4.53616 19.2375C4.93979 19.2275 5.32318 19.0831 5.6055 18.8346C5.88783 18.5861 6.04703 18.253 6.04956 17.9055V10.6258C6.04703 10.2783 5.88783 9.94513 5.6055 9.69664C5.32318 9.44816 4.93979 9.30373 4.53616 9.2938C4.13252 9.28387 3.74018 9.40922 3.44183 9.64342C3.14347 9.87762 2.96242 10.2024 2.93684 10.5492C2.7563 10.4457 2.55254 10.3759 2.33872 10.3444V8.9916C2.33872 4.3653 6.71157 0.602458 12.0863 0.602458C17.4609 0.602458 21.8338 4.3653 21.8338 8.9916V10.3273C21.5585 10.3409 21.2925 10.4175 21.0632 10.5492C21.0384 10.2018 20.8577 9.87633 20.5592 9.64152C20.2607 9.4067 19.8679 9.28098 19.4636 9.29092C19.0594 9.30087 18.6755 9.44569 18.3931 9.6948C18.1107 9.9439 17.9519 10.2778 17.9502 10.6258V17.9053C17.9505 18.1925 18.0578 18.4721 18.2563 18.7029C18.4548 18.9338 18.7341 19.1038 19.0532 19.1879C18.8459 19.66 18.5447 20.0975 18.1631 20.4807C17.1791 21.4666 15.7754 21.9965 13.9874 22.0558C13.9711 21.6983 13.7948 21.3601 13.4954 21.1119C13.1959 20.8638 12.7966 20.725 12.3809 20.7246H10.9282C10.5018 20.725 10.0931 20.8709 9.79163 21.1304C9.49016 21.3899 9.32059 21.7417 9.32011 22.1087V22.6163C9.32071 22.9832 9.49034 23.3349 9.79179 23.5943C10.0932 23.8537 10.5019 23.9996 10.9282 24H12.3809C12.799 23.9996 13.2005 23.8591 13.5004 23.6084C13.8003 23.3577 13.9751 23.0164 13.9878 22.6567C16.4914 22.5764 17.9373 21.6399 18.7172 20.8482C19.1888 20.3709 19.5491 19.8198 19.7784 19.2252C20.1237 19.1723 20.4382 19.0208 20.6712 18.7951C20.9042 18.5695 21.042 18.2828 21.0625 17.9814C21.3175 18.1282 21.6174 18.2064 21.9241 18.2061H22.4434C22.8565 18.2057 23.2525 18.0643 23.5446 17.8129C23.8367 17.5615 24.0009 17.2207 24.0014 16.8651V11.6657C24.0008 11.3237 23.8487 10.9947 23.5759 10.746C23.3032 10.4973 22.9304 10.3475 22.5337 10.3273Z"
+                            fill="#4EC259" />
+                    </svg>
+                    <span class="section-link__text section-link__text_color">Срочный вызов врача</span>
+                </button>
+                <a href="tel:+79275406537" class="footer__icon section-link">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20.4873 17.6402L16.4223 13.9442C16.2301 13.7696 15.9776 13.6764 15.7181 13.6845C15.4585 13.6925 15.2123 13.8011 15.0313 13.9872L12.6383 16.4482C12.0623 16.3382 10.9043 15.9772 9.71228 14.7882C8.52028 13.5952 8.15928 12.4342 8.05228 11.8622L10.5113 9.46824C10.6977 9.28737 10.8064 9.04106 10.8144 8.78145C10.8225 8.52183 10.7292 8.26928 10.5543 8.07724L6.85928 4.01324C6.68432 3.8206 6.44116 3.70374 6.18143 3.6875C5.92171 3.67125 5.66588 3.7569 5.46828 3.92624L3.29828 5.78724C3.12539 5.96075 3.0222 6.19169 3.00828 6.43624C2.99328 6.68624 2.70728 12.6082 7.29928 17.2022C11.3053 21.2072 16.3233 21.5002 17.7053 21.5002C17.9073 21.5002 18.0313 21.4942 18.0643 21.4922C18.3088 21.4786 18.5396 21.3749 18.7123 21.2012L20.5723 19.0302C20.7423 18.8333 20.8286 18.5776 20.8127 18.3179C20.7968 18.0582 20.68 17.815 20.4873 17.6402Z"
+                            fill="#4EC259" />
+                    </svg>
+                    <span class="section-link__text">+7 (927) 540-65-37</span>
+                </a>
+                <button class="footer__icon section-link">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_1050)">
+                            <path
+                                d="M11.9998 1.83325C9.92328 1.83499 7.93181 2.65838 6.46036 4.12358C4.9889 5.58879 4.15705 7.57674 4.14648 9.65325C4.14648 12.7666 5.89315 15.3733 7.17315 17.2733L7.40648 17.6199C8.68 19.4657 10.0462 21.2457 11.4998 22.9533L12.0065 23.5466L12.5132 22.9533C13.9666 21.2456 15.3328 19.4655 16.6065 17.6199L16.8398 17.2666C18.1132 15.3666 19.8598 12.7666 19.8598 9.65325C19.8492 7.57559 19.0165 5.58663 17.5436 4.12123C16.0707 2.65584 14.0775 1.83323 11.9998 1.83325ZM11.9998 13.1666C11.1349 13.1666 10.2893 12.9101 9.57012 12.4295C8.85093 11.949 8.29039 11.266 7.95938 10.4669C7.62838 9.66773 7.54177 8.7884 7.71052 7.94006C7.87926 7.09171 8.29578 6.31246 8.9074 5.70084C9.51903 5.08922 10.2983 4.6727 11.1466 4.50395C11.995 4.33521 12.8743 4.42181 13.6734 4.75282C14.4725 5.08383 15.1556 5.64437 15.6361 6.36356C16.1167 7.08275 16.3732 7.92829 16.3732 8.79325C16.3732 9.95313 15.9124 11.0655 15.0922 11.8857C14.2721 12.7058 13.1597 13.1666 11.9998 13.1666Z"
+                                fill="#4EC259" />
+                            <path
+                                d="M11.9997 11.28C13.373 11.28 14.4863 10.1667 14.4863 8.79331C14.4863 7.41996 13.373 6.30664 11.9997 6.30664C10.6263 6.30664 9.51302 7.41996 9.51302 8.79331C9.51302 10.1667 10.6263 11.28 11.9997 11.28Z"
+                                fill="#4EC259" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_1050">
+                                <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="section-link__text">Москва</span>
+                </button>
+                <a href="mailto:info@alcovrach.ru" class="footer__icon section-link">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20.4873 17.6402L16.4223 13.9442C16.2301 13.7696 15.9776 13.6764 15.7181 13.6845C15.4585 13.6925 15.2123 13.8011 15.0313 13.9872L12.6383 16.4482C12.0623 16.3382 10.9043 15.9772 9.71228 14.7882C8.52028 13.5952 8.15928 12.4342 8.05228 11.8622L10.5113 9.46824C10.6977 9.28737 10.8064 9.04106 10.8144 8.78145C10.8225 8.52183 10.7292 8.26928 10.5543 8.07724L6.85928 4.01324C6.68432 3.8206 6.44116 3.70374 6.18143 3.6875C5.92171 3.67125 5.66588 3.7569 5.46828 3.92624L3.29828 5.78724C3.12539 5.96075 3.0222 6.19169 3.00828 6.43624C2.99328 6.68624 2.70728 12.6082 7.29928 17.2022C11.3053 21.2072 16.3233 21.5002 17.7053 21.5002C17.9073 21.5002 18.0313 21.4942 18.0643 21.4922C18.3088 21.4786 18.5396 21.3749 18.7123 21.2012L20.5723 19.0302C20.7423 18.8333 20.8286 18.5776 20.8127 18.3179C20.7968 18.0582 20.68 17.815 20.4873 17.6402Z"
+                            fill="#4EC259" />
+                    </svg>
+                    <span class="section-link__text">info@alcovrach.ru</span>
+                </a>
+            </div>
+            <form class="footer__form" action="">
+                <p class="footer__form-title footer-title">
+                    Напишите нам
+                </p>
+                <label class="label__name label-form" for="">
+                    <input class="main__block_input" type="name" name="имя" placeholder="имя" required>
+                </label>
+                <label class=" label__phone label-form label-form_phone" for="">
+                    <input class="main__block_input" name="телнфон" placeholder="телнфон" type="tell" required>
+                </label>
+                <textarea name="" class="main__block_input" placeholder="Введите ваше сообщение"></textarea>
+                <button class="main__block-button section-button">Отправить заявку</button>
+            </form>
+            <div class="footer_right">
+                <p class="footer-title">
+                    Полезные ссылки
+                </p>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            Наркомания
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            Алкоголизм
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            Реабилитация
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            Кодирование
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            Цены
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer__social socials">
+                    <li class="socials__item social"><a href="#" target="_blank" class="social__link"><img
+                                src="assets/img/icons/socials/wa.png" alt="" class="social__img"></a></li>
+                    <li class="socials__item social"><a href="#" target="_blank" class="social__link"><img
+                                src="assets/img/icons/socials/vk.png" alt="" class="social__img"></a></li>
+                    <li class="socials__item social"><a href="#" target="_blank" class="social__link"><img
+                                src="assets/img/icons/socials/tg.png" alt="" class="social__img"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
